@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-image: url(pokemonforest.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #ffd400;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+}
